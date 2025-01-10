@@ -8,18 +8,18 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form>
+	<form method="post">
 		<label for="name">Name</label>
 		<input type="text" required="Yes" id="name" placeholder="Name">
 		<br>
 		<label for="email">Email</label>
 		<input type="email" required="Yes" id="email" placeholder="Email" >
 		<br>
-		<label for="Gender">Gender</label>
+		<label for="gender">Gender</label>
 		<br>
-		<input type="radio" name="Gender" required="Yes" id="gender_m" >Male
+		<input type="radio" name="gender" required="Yes" id="gender_m" >Male
 		<br>
-		<input type="radio" name="Gender" required="Yes"  id="gender_f">Female
+		<input type="radio" name="gender" required="Yes"  id="gender_f">Female
 		<br>
 		<label for="cars">Car Brands</label>
 		<br>
@@ -32,7 +32,7 @@
 		<label for="age">Age</label>
 		<input type="number" required="Yes" id="age" placeholder="Age" >
 		<br>
-		<label for="tel">DOB</label>
+		<label for="dob">DOB</label>
 		<input type="date" required="Yes" id="dob" placeholder="" >
 		<br>
 		<label for="tel">Phone Number</label>
@@ -43,6 +43,8 @@
 		<br>
 		<label for="tos">I agree to the TOS</label>
 		<input type="checkbox" required="Yes" id="tos" >
+		<br>
+		<button type="submit">Submit</button>
 	</form>
     <script type="text/javascript" src="./script.js">
 </script>
